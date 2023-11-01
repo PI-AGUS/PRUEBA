@@ -1,4 +1,4 @@
-'*.h5'
-'*.txt'
-'*.mcpl.gz'
-'*.mcpl'
+*.h5
+*.txt
+*.mcpl.gz
+*.mcpl
