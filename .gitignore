@@ -2,3 +2,4 @@
 *.txt
 *.mcpl.gz
 *.mcpl
+*.cmake
