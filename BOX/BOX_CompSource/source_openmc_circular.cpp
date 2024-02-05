@@ -15,8 +15,9 @@ class CustomSource : public openmc::Source
     // position
     float R = 1;
     float gamma = openmc::prn(seed);
+    float alpha = openmc::prn(seed);
     float angle = 2 * M_PI * gamma;
-    float radius = R * std::sqrt(gamma);
+    float radius = R * std::sqrt(alpha);
     particle.r.x = radius * std::cos(angle);
     particle.r.y = radius * std::sin(angle);
     particle.r.z = 0.0;
